@@ -9,6 +9,11 @@
       "@type": "@id",
       "@container": "@graph"
     },
+    "cryptoVersion": {
+      "@id": "dockBBS:cryptoVersion",
+      "@type": "@id",
+      "@container": "@graph"
+    },
     "defaultDecimalPlaces": {
       "@id": "dockBBS:defaultDecimalPlaces",
       "@type": "@id",
@@ -33,6 +38,22 @@
       "@id": "dockBBS:useDefaults",
       "@type": "@id",
       "@container": "@graph"
+    },
+    "DockVBAccumulator2022": {
+      "@id": "https://ld.dock.io/security#DockVBAccumulator2022",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "accumulated": "https://ld.dock.io/security#accumulated",
+        "revocationCheck": "https://ld.dock.io/security#revocationCheck",
+        "revocationId": "https://ld.dock.io/security#revocationId",
+        "extra": {
+          "@id": "https://ld.dock.io/security#extra",
+          "@context": {"@vocab": "https://ld.dock.io/security/extra"}
+        }
+      }
     },
     "Bls12381BBS+SignatureProofDock2022": {
       "@id": "https://ld.dock.io/security#Bls12381BBS+SignatureDock2022",
