@@ -14,6 +14,11 @@
       "@type": "@id",
       "@container": "@graph"
     },
+    "presVersion": {
+      "@id": "dockBBS:presVersion",
+      "@type": "@id",
+      "@container": "@graph"
+    },
     "defaultDecimalPlaces": {
       "@id": "dockBBS:defaultDecimalPlaces",
       "@type": "@id",
@@ -39,8 +44,29 @@
       "@type": "@id",
       "@container": "@graph"
     },
+    "details": {
+      "@id": "dockBBS:details",
+      "@type": "@id",
+      "@container": "@graph"
+    },
     "DockVBAccumulator2022": {
       "@id": "https://ld.dock.io/security#DockVBAccumulator2022",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "accumulated": "https://ld.dock.io/security#accumulated",
+        "revocationCheck": "https://ld.dock.io/security#revocationCheck",
+        "revocationId": "https://ld.dock.io/security#revocationId",
+        "extra": {
+          "@id": "https://ld.dock.io/security#extra",
+          "@context": {"@vocab": "https://ld.dock.io/security/extra"}
+        }
+      }
+    },
+    "DockKBUniversalAccumulator2024": {
+      "@id": "https://ld.dock.io/security#DockKBUniversalAccumulator2024",
       "@context": {
         "@version": 1.1,
         "@protected": true,
