@@ -8,6 +8,10 @@ const nextConfig = {
         destination: '/credentials/prettyvc.json',
       },
       {
+        source: '/credentials/extensions-v1',
+        destination: '/credentials/extensions-v1.json',
+      },
+      {
         source: '/security/bbs/v1',
         destination: '/security/bbs/v1.json',
       },
