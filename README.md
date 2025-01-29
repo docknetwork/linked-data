@@ -1,3 +1,3 @@
 # Dock Linked Data
 
-https://ld.dock.io
+https://ld.truvera.io
